@@ -1,145 +1,127 @@
 # 📊 Olist E-Commerce Analytics Dashboard
 
-An interactive Business Intelligence dashboard built using **Python, SQL, SQLite, Plotly, and Streamlit** to analyze the Brazilian Olist E-Commerce dataset. The project provides insights into sales, customers, products, sellers, logistics, and customer satisfaction through interactive visualizations and KPI dashboards.
+An interactive Business Intelligence dashboard built using **Python, SQL, SQLite and Streamlit** to analyze the Brazilian Olist e-commerce marketplace.
+
+The project transforms raw transactional data into actionable business insights through executive dashboards, customer analytics, sales performance, seller analysis, product analysis, operations metrics, and customer satisfaction reports.
 
 ---
 
 ## 🚀 Project Overview
 
-This dashboard transforms raw transactional data into actionable business insights by combining SQL-based data extraction with interactive Streamlit visualizations.
+This project demonstrates an end-to-end analytics workflow:
 
-The dashboard is organized into multiple analytical modules, allowing users to explore different aspects of marketplace performance.
+- Data Cleaning & Preprocessing
+- SQL Database Design
+- Business KPI Development
+- Interactive Dashboard Development
+- Data Visualization
+- Business Insight Generation
 
----
-
-## ✨ Features
-
-- Executive Dashboard
-- Sales Analysis
-- Customer Analysis
-- Product Analysis
-- Seller Performance
-- Operations Analysis
-- Customer Satisfaction Analysis
+The dashboard is built for business users to explore sales trends, customer behavior, seller performance, operational efficiency, and product performance.
 
 ---
 
-## 📊 Dashboard Modules
+## 📂 Dataset
 
-### Executive Dashboard
-- Total Orders
-- Revenue
+**Dataset:** Olist Brazilian E-Commerce Public Dataset
+
+The dataset contains information about:
+
 - Customers
-- Average Order Value
-- Revenue Trend
-- Order Status Distribution
-- Payment Method Distribution
-
-### Sales Analysis
-- Monthly Sales Trend
-- Revenue by Order Status
-- Payment Type Analysis
-- Monthly Revenue Table
-
-### Customer Analysis
-- Customer Distribution
-- Top Customer States
-- Customer Growth
-- Customer Purchase Behaviour
-
-### Product Analysis
-- Top Product Categories
-- Product Revenue
-- Best Selling Products
-- Category Performance
-
-### Seller Analysis
-- Top Sellers
-- Revenue by Seller
-- Seller Performance
-- Seller Distribution
-
-### Operations Analysis
-- Delivery Time Analysis
-- Shipping Performance
-- Order Status Analysis
-- Logistics KPIs
-
-### Customer Satisfaction
-- Review Score Distribution
-- Ratings Analysis
-- Review Trends
-- Satisfaction KPIs
+- Orders
+- Products
+- Sellers
+- Payments
+- Reviews
+- Geolocation
+- Order Items
 
 ---
 
-## 🛠 Technology Stack
+## 🛠 Tech Stack
 
-| Category | Technologies |
-|-----------|--------------|
-| Programming | Python |
-| Database | SQLite |
-| Query Language | SQL |
-| Data Analysis | Pandas, NumPy |
-| Visualization | Plotly |
-| Dashboard | Streamlit |
+### Programming
+
+- Python
+- SQL
+
+### Database
+
+- SQLite
+
+### Dashboard
+
+- Streamlit
+- Plotly
+
+### Data Processing
+
+- Pandas
+- NumPy
+
+### Development
+
+- Jupyter Notebook
+- VS Code
+- Git
+- GitHub
 
 ---
 
-## 📁 Project Structure
+# 📁 Project Structure
 
-```text
+```
 olist-ecommerce-analytics/
 │
 ├── dashboard/
-│   ├── app.py
-│   ├── components.py
-│   ├── config.py
-│   ├── styles.py
-│   ├── utils.py
-│   ├── queries.py
-│   └── pages/
-│       ├── 1_Executive_Dashboard.py
-│       ├── 2_Sales_Analysis.py
-│       ├── 3_Customer_Analysis.py
-│       ├── 4_Product_Analysis.py
-│       ├── 5_Seller_Analysis.py
-│       ├── 6_Operations.py
-│       └── 7_Customer_Satisfaction.py
+│   ├── home.py
+│   ├── pages/
+│   └── ...
 │
-├── data/
+├── SQL/
+│
+├── notebooks/
+│
 ├── images/
-├── reports/
+│
+├── src/
+│
 ├── requirements.txt
+│
 └── README.md
 ```
 
 ---
 
-## 📈 Dataset
+# 📈 Dashboard Modules
 
-This project uses the **Brazilian Olist E-Commerce Dataset**, containing approximately:
+The dashboard includes:
 
-- 99,000+ Orders
-- 96,000+ Customers
-- 112,000+ Order Items
-- 32,000+ Sellers
-- 3,000+ Product Categories
-
----
-
-## 🎯 Business Objectives
-
-- Analyze sales performance
-- Identify customer purchasing patterns
-- Evaluate seller performance
-- Discover top-performing products
-- Monitor logistics efficiency
-- Measure customer satisfaction
+- Executive Dashboard
+- Sales Analysis
+- Customer Analysis
+- Product Analysis
+- Seller Analysis
+- Operations Dashboard
+- Customer Satisfaction Dashboard
 
 ---
 
-## ▶️ Installation
+# ✨ Features
+
+- Interactive filters
+- KPI cards
+- Trend analysis
+- Revenue analysis
+- Customer segmentation
+- Product performance analysis
+- Seller performance metrics
+- Customer satisfaction insights
+- Operational performance dashboard
+
+---
+
+# ▶️ Running the Project
 
 Clone the repository
 
@@ -162,74 +144,30 @@ pip install -r requirements.txt
 Run the dashboard
 
 ```bash
-streamlit run dashboard/app.py
+streamlit run dashboard/home.py
 ```
 
 ---
 
-## 📷 Dashboard Preview
+# 📊 Dashboard Preview
 
-### Home
-
-![Home](images/home.png)
+Dashboard screenshots are available inside the **images/** folder.
 
 ---
 
-### Executive Dashboard
+# 🔮 Future Improvements
 
-![Executive](images/executive_dashboard.png)
-
----
-
-### Sales Analysis
-
-![Sales](images/sales_analysis.png)
+- Deployment on Streamlit Community Cloud
+- Predictive Sales Forecasting
+- Customer Lifetime Value Analysis
+- Recommendation System
+- Real-time Data Pipeline
 
 ---
 
-### Customer Analysis
-
-![Customer](images/customer_analysis.png)
-
----
-
-### Product Analysis
-
-![Product](images/product_analysis.png)
-
----
-
-### Seller Analysis
-
-![Seller](images/seller_analysis.png)
-
----
-
-### Operations
-
-![Operations](images/operations.png)
-
----
-
-### Customer Satisfaction
-
-![Customer Satisfaction](images/customer_satisfaction.png)
-
----
-
-## 👩‍💻 Author
+# 👩‍💻 Author
 
 **Sania Chhillar**
 
-B.Tech (ECE-AI)  
-Data Analytics | Business Intelligence | SQL | Python | Streamlit | Power BI
-
----
-
-## ⭐ Future Improvements
-
-- Advanced filtering
-- Forecasting models
-- Geographical visualizations
-- Customer segmentation using Machine Learning
-- Deployment on Streamlit Community Cloud
+GitHub:
+https://github.com/saniachhillar
