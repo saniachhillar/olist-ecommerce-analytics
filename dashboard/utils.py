@@ -131,3 +131,20 @@ def build_where_clause(
         return ""
 
     return "WHERE " + " AND ".join(conditions)
+
+@st.cache_data
+def get_monthly_revenue():
+
+    query = """
+    SELECT
+        DATE(strftime('%Y-%m-01', orders.order_purchase_timestamp)) AS Month,
+        SUM(payments.payment_value) AS Revenue
+    FROM orders
+    JOIN payments
+        ON orders.order_id = payments.order_id
+    GROUP BY Month
+    ORDER BY Month
+    """
+
+    return run_query(query)
+
