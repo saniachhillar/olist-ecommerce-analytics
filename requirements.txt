@@ -3,3 +3,4 @@ pandas>=2.2.0
 numpy>=2.0.0
 plotly>=6.0.0
 huggingface_hub>=0.24.0
+prophet>=1.1.7
