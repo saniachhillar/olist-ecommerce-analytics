@@ -165,13 +165,20 @@ Dashboard screenshots are available inside the **images/** folder.
 
 ---
 
-# 👩‍💻 Author
+---
+
+## 🙋‍♀️ Author
 
 **Sania Chhillar**
 
-GitHub:
-https://github.com/saniachhillar
+🎓 B.Tech (ECE-AI), Indira Gandhi Delhi Technical University for Women
 
-## Live Demo
+🔗 **GitHub:** [github.com/saniachhillar](https://github.com/saniachhillar)
 
-https://<your-streamlit-app>.streamlit.app
+💼 **LinkedIn:** [linkedin.com/in/sania-chhillar](https://www.linkedin.com/in/sania-chhillar/) *(replace with your exact LinkedIn URL if different)*
+
+---
+
+## 🚀 Try the Dashboard
+
+👉 **[Launch Olist E-commerce Analytics Dashboard](https://saniachhillar-olist-ecommerce-analytics-dashboardhome-zwikhs.streamlit.app/)**
